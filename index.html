@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Countries Population Search</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container pt-5">
+    <h1 class="text-center mb-4 heading">World Countries Population</h1>
+
+    <div class="row mb-3">
+      <div class="col-12">
+        <input type="text" class="form-control" id="searchInput" placeholder="Search for a country...">
+      </div>
+    </div>
+
+    <div class="col-12 d-none mt-3" id="spinner">
+      <div class="d-flex flex-row justify-content-center">
+        <div class="spinner-border" role="status"></div>
+      </div>
+    </div>
+
+    <div class="row" id="resultCountries"></div>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>

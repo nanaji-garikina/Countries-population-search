@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #3e4c59;
+}
+
+.country-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #ebf2fc;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 15px;
+  width: 100%;
+}
+
+.country-flag {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin: auto 0;
+}
+
+.country-info {
+  margin-left: 20px;
+}
+
+.country-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #183b56;
+}
+
+.country-population {
+  font-size: 14px;
+  font-weight: 400;
+}
